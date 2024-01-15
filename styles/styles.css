@@ -54,7 +54,7 @@ nav li a {
 }
 
 .banner {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,7 +63,25 @@ nav li a {
     width: 1255px;
     height: 500px;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
 }
