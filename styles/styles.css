@@ -10,6 +10,11 @@ header {
     padding-top: 52px;
 }
 
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -87,7 +92,7 @@ nav li a {
 
 .about-tour {
     display: flex;
-    padding: 135px;
+    margin-top: 120px;
     gap: 50px;
     align-items: center;
 }
@@ -129,4 +134,224 @@ nav li a {
     font-size: 1.3rem;
     font-weight: 800;
     border: none;
+}
+
+.destination {
+    text-align: center;
+    justify-content: center;
+    padding: 0 263px;
+
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.destination-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.maldives-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+
+}
+
+.indonesia-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    width: 573px;
+    height: 300px;
+
+}
+
+.srilanka-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+}
+
+.north-america-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+}
+
+.kashmir-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+}
+
+.bangladesh-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+}
+
+.bandarban-image {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+}
+
+.maldives-image {
+    grid-area: maldives-image;
+}
+
+.indonesia-image {
+    grid-area: indonesia-image;
+}
+
+.srilanka-image {
+    grid-area: srilanka-image;
+}
+
+.north-america-image {
+    grid-area: north-america-image;
+}
+
+.kashmir-image {
+    grid-area: kashmir-image;
+}
+
+.bangladesh-image {
+    grid-area: bangladesh-image;
+}
+
+.bandarban-image {
+    grid-area: bandarban-image;
+}
+
+.destination-image {
+    display: grid;
+    justify-content: center;
+    gap: 24px;
+    grid-template-areas:
+        "maldives-image maldives-image indonesia-image  indonesia-image"
+        "srilanka-image north-america-image north-america-image kashmir-image"
+        "bangladesh-image bangladesh-image  bandarban-image  bandarban-image "
+    ;
+}
+
+.hotel img{
+    width: 65px;
+}
+.price img{
+    width: 65px;
+}
+
+.service-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.service-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.details {
+    display: flex;
+    gap: 24px;
+}
+
+.price {
+    margin: 0 auto;
+}
+
+.hotel-name {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.hotel-des {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.map-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.map-des {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.price-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.price-des {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 32px 55px;
+    gap: 24px;
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 32px 55px;
+    gap: 24px;
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 32px 55px;
+    margin-top: 24px;
+    
 }
