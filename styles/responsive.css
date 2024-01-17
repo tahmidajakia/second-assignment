@@ -1,9 +1,7 @@
 @media screen and (max-width: 600px) {
-    header {
+    header,main {
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 20px;
+        margin: 0 10px;
     }
 
     .humburger {
@@ -44,12 +42,7 @@
     }
 
 
-    main {
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
 
-    }
 
     .about-tour {
         display: grid;
@@ -97,44 +90,14 @@
         flex-direction: column;
     }
 
-    .hotel-name {
+    .name {
         font-size: 1.3rem;
     }
 
-    .hotel-des {
+    .des {
         font-size: 0.9rem;
     }
 
-    .map-title {
-        font-size: 1.3rem;
-    }
-
-    .map-des {
-        font-size: 0.9rem;
-    }
-
-    .price-title {
-        font-size: 1.3rem;
-    }
-
-    .price-des {
-        font-size: 0.9rem;
-    }
-
-    .hotel {
-        width: 100%;
-        padding: 32px 32px;
-    }
-
-    .map {
-        width: 100%;
-        padding: 32px 32px;
-    }
-
-    .price {
-        width: 100%;
-        padding: 32px 32px;
-    }
     .mountain-container{
         display: grid;
         flex-direction: column;
