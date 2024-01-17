@@ -439,11 +439,11 @@ iframe {
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
     font-weight: 400;
-    width: 100%;
-    padding: 16px 20px;
+    width: 94%;
+    padding: 14px;
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border: none;
 
 }
@@ -453,11 +453,11 @@ iframe {
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
     font-weight: 400;
-    width: 100%;
-    padding: 16px 20px;
+    width: 94%;
+    padding: 14px;
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border: none;
 }
 
@@ -505,7 +505,7 @@ footer {
 }
 
 .footer-des {
-    width: 769px;
+    width: 500px;
     margin: 24px auto;
     color: #5A5A5D;
     text-align: center;
