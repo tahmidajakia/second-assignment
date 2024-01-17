@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+
+.humburger {
+    display: none;
+}
+
 * {
     font-family: 'Mulish', sans-serif;
 }
@@ -280,21 +285,20 @@ select {
     ;
 }
 
-.hotel img {
-    width: 65px;
+.service {
+    margin: 100px auto;
 }
 
-.price img {
-    width: 65px;
+.service-container {
+    text-align: center;
+    justify-content: center;
 }
 
 .service-title {
     color: #131318;
     text-align: center;
-    font-family: Mulish;
     font-size: 3rem;
     font-weight: 800;
-
 }
 
 .service-des {
@@ -302,97 +306,68 @@ select {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 26px;
+    margin-bottom: 45px;
 }
 
 .details {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 
 .price {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.hotel-name {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.hotel-des {
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-    width: 486px;
-}
-
-.map-title {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-
-}
-
-.map-des {
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-    width: 486px;
-}
-
-.price-title {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.price-des {
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-    width: 486px;
-}
-
-.hotel {
+.container {
     border-radius: 16px;
+    gap: 24px;
+    width: 573px;
+    padding: 32px 32px 55px 32px;
+}
+
+.box-1 {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
-    height: 284px;
-    padding: 32px 55px;
-    gap: 24px;
 }
 
-.map {
-    border-radius: 16px;
+.box-2 {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
-    height: 284px;
-    padding: 32px 55px;
-    gap: 24px;
 }
 
-.price {
-    border-radius: 16px;
+.box-3 {
+    margin-top: 24px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 573px;
-    height: 284px;
-    padding: 32px 55px;
-    margin-top: 24px;
-
 }
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+    color: #131318;
+}
+
+.des {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5A5A5D;
+}
+
 
 .mountain-container {
     display: flex;
-    margin-top: 100px;
+    margin: 100px 0;
     gap: 50px;
     align-items: center;
+}
+
+.mountain-section {
+    max-width: 50%;
 }
 
 .mountain-title {
@@ -400,7 +375,6 @@ select {
     font-size: 3rem;
     font-weight: 800;
     line-height: 60px;
-    width: 448px;
 
 }
 
@@ -409,18 +383,17 @@ select {
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
-    width: 532px;
+    margin: 25px 0;
 }
 
-.mountain-content {
+.mountain-content li {
     color: #131318;
     font-size: 1rem;
     font-weight: 700;
     line-height: 26px;
-    width: 518px;
 }
 
-.video {
+iframe {
     width: 610px;
     height: 424px;
     border-radius: 16px;
@@ -429,27 +402,20 @@ select {
 }
 
 .newslatter {
+    margin-bottom: 100px;
     display: flex;
     gap: 24px;
-    margin-top: 100px;
+    align-items: center;
+
 }
 
-.newslatter-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.newslatter-form-container {
+    padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 474px;
-    height: 422px;
-    padding: 25px;
-
 }
 
-.newslatter-form input {
-    margin-top: 15px;
 
-}
 
 .newslatter-title {
     color: #131318;
@@ -463,34 +429,47 @@ select {
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
+    margin: 24px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
 }
 
 .input1 {
+    display: block;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 16px 20px;
     border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-    width: 393px;
-    height: 52px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
     border: none;
 
 }
 
 .input2 {
+    display: block;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 16px 20px;
     border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-    width: 393px;
-    height: 52px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
     border: none;
 }
 
 .button {
     border-radius: 8px;
-    background: #FF5400;
-    width: 393px;
-    height: 52px;
+    background-color: #FF5400;
     color: #FFF;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 800;
+    width: 100%;
+    padding: 14px;
     border: none;
 }
 
@@ -500,11 +479,13 @@ select {
 
 }
 
-
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
 
 .footer {
+    width: 100%;
     text-align: center;
-    background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
     height: 502px;
 }
@@ -524,6 +505,8 @@ select {
 }
 
 .footer-des {
+    width: 769px;
+    margin: 24px auto;
     color: #5A5A5D;
     text-align: center;
     font-size: 1rem;
@@ -550,4 +533,5 @@ select {
     font-size: 1rem;
     font-weight: 300;
     margin-top: 50px;
+    text-align: center;
 }

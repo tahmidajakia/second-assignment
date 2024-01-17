@@ -6,6 +6,7 @@
     <title>my second assignment</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://kit.fontawesome.com/7a5abb4836.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,11 +16,12 @@
                 <h1 class="nav-name">Travel <span class="color">Touch</span></h1>
             </div>
             <ul class="nav-menu">
-                <li><a href=""> <span class="color">Home</span></a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li class="menu-bar"><a href=""> <span class="color">Home</span></a></li>
+                <li class="menu-bar"><a href="">Packages</a></li>
+                <li class="menu-bar"><a href="">Testimonial</a></li>
+                <li class="menu-bar"><a href="">Blog</a></li>
+                <li class="menu-bar"><a href="">Contact</a></li>
+                <li class="humburger"><a href=""><i class="fa-solid fa-bars"></i></a></li>
             </ul>
         </nav>
         <section class="banner">
@@ -40,7 +42,7 @@
                         <option value="......">......</option>
                         <option value="......">......</option>
                     </select>
-                    <button class="btn">Find Now</button>
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
                 </form>
             </div>
         </section>
@@ -92,56 +94,55 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="service">
+            <div class="service-container">
                 <h2 class="service-title">Why Choose Us</h2>
                 <p class="service-des">we have the best prices for tours, and a huge selection of destinations will not leave indifferent even avid tourist.</p>
             </div>
             <div class="details">
-                <div class="hotel">
-                    <img src="Images/hotel.png" alt="">
-                    <h4 class="hotel-name">Handpicked Hotels</h4>
-                    <p class="hotel-des">Hand Picked Hotels is a collection of 21 refurbished country house hotels and coastal resorts in the UK and the Channel Islands. Each hotel enjoys a differentiated style and character developed to suit the heritage of each property while ensuring a consistent quality that is characteristic of the group.</p>
+                <div class="container box-1">
+                    <img src="Images/hotel 1.svg" alt="">
+                    <h4 class="name">Handpicked Hotels</h4>
+                    <p class="des">Hand Picked Hotels is a collection of 21 refurbished country house hotels and coastal resorts in the UK and the Channel Islands. Each hotel enjoys a differentiated style and character developed to suit the heritage of each property.</p>
                 </div>
-                <div class="map">
+                <div class="container box-2">
                     <img src="Images/map 1.svg" alt="">
-                    <h4 class="map-title">World Class Service</h4>
-                    <p class="map-des">World Class Services is proud to provide Tacoma and Pierce County residents with the highest quality heating, cooling, and indoor air quality solutions. Our highly trained and expert technicians are focused not only on solving your most pressing indoor comfort problems, but also on educating our customers.</p>
+                    <h4 class="name">World Class Service</h4>
+                    <p class="des">World Class Services is proud to provide Tacoma and Pierce County residents with the highest quality heating, cooling, and indoor air quality solutions. Our highly trained and expert technicians are focused not only on solving your most pressing indoor comfort problems.</p>
                 </div>
             </div>
             <div class="price">
-                <img src="Images/price-tag.png" alt="">
-                <h4 class="price-title">Best Price Guarantee</h4>
-                <p class="price-des">All requests, including receipts, are subject to verification by Travelzoo Bangladesh Ltd. will not accept evidence of a lower price that cannot be independently confirmed by Travelzoo Bangladesh Ltd. personnel.Travelzoo Bangladesh Ltd. will also not verify any request that it believes, in its sole discretion. </p>
+               <div class="container box-3">
+                <img src="Images/price-tag 1.svg" alt="">
+                <h4 class="name">Best Price Guarantee</h4>
+                <p class="des">All requests, including receipts, are subject to verification by Travelzoo Bangladesh Ltd. will not accept evidence of a lower price that cannot be independently confirmed by Travelzoo Bangladesh Ltd. personnel.Travelzoo Bangladesh Ltd.</p>
+               </div>
             </div>
         </section>
-        <section>
-            <div class="mountain-container">
-                <div class="mountain">
-                    <h4 class="mountain-title">A Simple Perfect Place To Get Lost</h4>
-                    <p class="mountain-des">A perfect place to go searching without a map because the handy thing is that it’s impossible to stay lost for long.</p>
-    
-                    <ul class="mountain-content">
-                        <li>If you visit a city for the first time, you should definitely look at and monuments.</li>
-                        <li>Not everyone wants to aimlessly wander and knowing where you are and where you want to go.</li>
-                    </ul>
+        <section class="mountain-container">
+            <div class="mountain-section">
+                    <h2 class="mountain-title">A Simple Perfect Place  To Get Lost</h2>
+                    <div>
+                        <p class="mountain-des">A perfect place to go searching without a map because the handy thing is that it’s impossible to stay lost for long.</p>
+                        <ul class="mountain-content">
+                            <li>If you visit a city for the first time, you should definitely look at and monuments.</li>
+                            <li>Not everyone wants to aimlessly wander and knowing where you are and where you want to go.</li>
+                        </ul>
+                    </div>
                     <button class="btn-primary">See More</button>
                 </div>
-                <div class="video-content">
-                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=Bmb5EvEojKUieTBl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                <iframe src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=Bmb5EvEojKUieTBl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
         <section class="newslatter">
             <div class="newslatter-form-container">
-                <form class="newslatter-form">
                     <h3 class="newslatter-title">Newsletter</h3>
                     <p class="newslatter-des">Get your daily dose of travel news & tips. Sign up today!</p>
-                    <hr width="393px">
+                   <form>
                     <input class="input1" type="email" name="" id="" placeholder="Enter your name" >
                     <input class="input2" type="email" name="" id="" placeholder="Enter your email" >
                     <input class="button" type="submit" value="Subscribe">
-                </form>
+                   </form>
             </div>
             <div class="image2">
                 <img src="Images/Rectangle 8 (1).png" alt="">
